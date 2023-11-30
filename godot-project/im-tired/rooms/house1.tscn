@@ -1,0 +1,119 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://im-tired/rooms/house1.png" type="Texture" id=1]
+[ext_resource path="res://engine/place/Place.gd" type="Script" id=2]
+[ext_resource path="res://engine/place/TalkThing.tscn" type="PackedScene" id=3]
+[ext_resource path="res://engine/place/GoThing.tscn" type="PackedScene" id=4]
+
+[node name="APlace" type="Control"]
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BG" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+mouse_filter = 2
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Talkers" type="Node" parent="."]
+
+[node name="TalkThing2" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "computer"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing2" index="0"]
+polygon = PoolVector2Array( 240, 117, 244, 254, 386, 259, 392, 116 )
+
+[node name="TalkThing" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "booba"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing" index="0"]
+polygon = PoolVector2Array( 314, 286, 318, 316, 370, 324, 396, 306, 380, 269 )
+
+[node name="TalkThing3" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "wof"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing3" index="0"]
+polygon = PoolVector2Array( 69, 182, 70, 233, 123, 237, 126, 181 )
+
+[node name="TalkThing4" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "lamp"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing4" index="0"]
+polygon = PoolVector2Array( 21, 140, 13, 195, 37, 228, 75, 235, 86, 164, 50, 138 )
+
+[node name="TalkThing5" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "max"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing5" index="0"]
+polygon = PoolVector2Array( 152, 171, 116, 177, 122, 234, 160, 238, 164, 193 )
+
+[node name="TalkThing6" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "blue_square"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing6" index="0"]
+polygon = PoolVector2Array( 348, -1, 350, 57, 409, 58, 411, 1 )
+
+[node name="TalkThing7" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "gray_square"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing7" index="0"]
+polygon = PoolVector2Array( 295, 32, 291, 73, 343, 85, 350, 27 )
+
+[node name="TalkThing8" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "green_square"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing8" index="0"]
+polygon = PoolVector2Array( 378, 53, 376, 91, 409, 99, 413, 57 )
+
+[node name="TalkThing9" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "beige_square"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing9" index="0"]
+polygon = PoolVector2Array( 412, 50, 411, 103, 474, 109, 468, 50 )
+
+[node name="TalkThing10" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "yellow_square"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing10" index="0"]
+polygon = PoolVector2Array( 466, 42, 472, 90, 518, 93, 524, 49 )
+
+[node name="TalkThing11" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "lamp2"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing11" index="0"]
+polygon = PoolVector2Array( 536, 61, 482, 139, 518, 176, 513, 411, 564, 414, 577, 178, 626, 140, 592, 67 )
+
+[node name="TalkThing12" parent="Talkers" instance=ExtResource( 3 )]
+thing_name = "dresser"
+
+[node name="CollisionPolygon2D" parent="Talkers/TalkThing12" index="0"]
+polygon = PoolVector2Array( -1, 223, 5, 393, 185, 398, 178, 228 )
+
+[node name="Goers" type="Node" parent="."]
+
+[node name="GoThing" parent="Goers" instance=ExtResource( 4 )]
+position = Vector2( 39, 429 )
+place_name = "house2"
+
+[node name="GoThing2" parent="Goers" instance=ExtResource( 4 )]
+position = Vector2( 593, 423 )
+rotation = 3.14159
+place_name = "house3"
+
+[editable path="Talkers/TalkThing2"]
+[editable path="Talkers/TalkThing"]
+[editable path="Talkers/TalkThing3"]
+[editable path="Talkers/TalkThing4"]
+[editable path="Talkers/TalkThing5"]
+[editable path="Talkers/TalkThing6"]
+[editable path="Talkers/TalkThing7"]
+[editable path="Talkers/TalkThing8"]
+[editable path="Talkers/TalkThing9"]
+[editable path="Talkers/TalkThing10"]
+[editable path="Talkers/TalkThing11"]
+[editable path="Talkers/TalkThing12"]

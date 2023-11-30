@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://engine/place/GoThing.gd" type="Script" id=1]
+[ext_resource path="res://im-tired/arrow.png" type="Texture" id=2]
+
+[node name="GoThing" type="Area2D"]
+position = Vector2( 0, 1 )
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -9, -21, -24, -5, -25, 6, -9, 23, 4, 21, 23, 15, 25, -6, 4, -23 )
+
+[connection signal="clicked" from="." to="." method="_on_GoThing_clicked"]

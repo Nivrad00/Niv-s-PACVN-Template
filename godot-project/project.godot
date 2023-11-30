@@ -1,0 +1,66 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "Place",
+"language": "GDScript",
+"path": "res://engine/place/Place.gd"
+}, {
+"base": "Thing",
+"class": "TakeThing",
+"language": "GDScript",
+"path": "res://engine/place/TakeThing.gd"
+}, {
+"base": "Area2D",
+"class": "Thing",
+"language": "GDScript",
+"path": "res://engine/place/Thing.gd"
+} ]
+_global_script_class_icons={
+"Place": "",
+"TakeThing": "",
+"Thing": ""
+}
+
+[application]
+
+config/name="i'm tired of this"
+run/main_scene="res://engine/main.tscn"
+config/icon="res://im-tired/icon.png"
+
+[autoload]
+
+Game="*res://engine/game.tscn"
+
+[display]
+
+window/size/width=640
+window/size/height=480
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/paulloz.ink/plugin.cfg" )
+
+[global]
+
+icon=false
+
+[ink]
+
+inklecate_path="res://inklecate.exe"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
