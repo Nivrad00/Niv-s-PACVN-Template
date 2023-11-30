@@ -1,6 +1,7 @@
 EXTERNAL have(thing)
 
 === start ===
+    @tweeter
     hmmm
     i'm on tweeter?
     ...

@@ -7,3 +7,12 @@ C:\Users\darvi\Godot Projects\im tired of this\.mono\temp\bin\Debug\i'm tired of
 C:\Users\darvi\Godot Projects\im tired of this\.mono\temp\bin\Debug\i'm tired of this.pdb
 C:\Users\darvi\Godot Projects\im tired of this\.mono\temp\obj\Debug\i'm tired of this.dll
 C:\Users\darvi\Godot Projects\im tired of this\.mono\temp\obj\Debug\i'm tired of this.pdb
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\bin\Debug\i'm tired of this.dll
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\bin\Debug\i'm tired of this.pdb
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.csproj.AssemblyReference.cache
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.AssemblyInfoInputs.cache
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.AssemblyInfo.cs
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.csproj.CoreCompileInputs.cache
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.dll
+C:\Users\darvi\Godot Projects\nivs-pacvn-template\Niv-s-PACVN-Template\godot-project\.mono\temp\obj\Debug\i'm tired of this.pdb

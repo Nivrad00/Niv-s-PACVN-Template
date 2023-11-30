@@ -7,7 +7,6 @@ onready var stuff = $Stuff
 onready var state = $State
 
 func _ready():
-	location.go_to("tweeter")
 	ink.BindExternalFunction("have", stuff, "have", true)
 	ink.ChoosePathString("start")
 	more_words_pls()
