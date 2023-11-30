@@ -14,6 +14,7 @@ The "im-tired" folder contains a tiny example game that uses this engine.
 
 The main scene of the project is set to be main.tscn, which is a completely empty scene. The actual functionality is in game.tscn, which is set as an AutoLoad so that you can use the global variable Game to refer to the engine at any time. The structure of game.tscn is as follows:
 
+```text
 Game
 |
 |__ State
@@ -35,6 +36,7 @@ Game
 |__ Words
 |
 |__ InkPlayer
+```
 
 = = =
 
@@ -89,7 +91,9 @@ I think "% state value" was supposed to manipulate the game state, but like I sa
 TL;DR
 
 To make a game, you need these things:
+```text
   > a path set in Location that points to a directory of Place scenes (or images), each representing a location in your game,
     > which can contain TalkThings and TakeThings and link to each other with GoThings;
   > a path set in Stuff that points to a directory of images, each representing an inventory item;
   > and an Ink script loaded into InkPlayer.
+```
